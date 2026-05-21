@@ -48,34 +48,73 @@ movie-info-website/
 └── README.md
 ```
 # ⚙️ Installation & Setup
-1️⃣ Clone the repository
-    git clone https://github.com/your-username/movie-info-website.git
-2️⃣ Open the project folder
-    cd movie-info-website
-3️⃣ Install dependencies
-    npm install
-4️⃣ Create .env file
 
-Create a .env file in the root directory and add your TMDb API key:
+## 1️⃣ Clone the Repository
 
-API_KEY = your_api_key_here
-BASE_URL = url
+```bash
+git clone https://github.com/your-username/movie-info-website.git
+```
 
-#🔑 Getting TMDb API Key
+---
+
+## 2️⃣ Open the Project Folder
+
+```bash
+cd movie-info-website
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 4️⃣ Create a `.env` File
+
+Create a `.env` file in the root directory and add:
+
+```env
+API_KEY=your_api_key_here
+BASE_URL=your_base_url_here
+```
+
+---
+
+# 🔑 Getting TMDb API Key
+
 1. Create an account on TMDb Official Website
-2. Go to API settings
+2. Go to API Settings
 3. Generate your API key
-4. Copy the key into your .env file
+4. Copy the key into your `.env` file
 
-#▶️ Run the Project
+TMDb Website: https://www.themoviedb.org
+
+---
+
+# ▶️ Run the Project
+
+```bash
 npm run dev
+```
 
 The app will start on:
 
+```bash
 http://localhost:5173
+```
 
-#🌍 API Used
-The Movie Database (TMDb) API
+---
+
+# 🌍 API Used
+
+- The Movie Database (TMDb) API
+
+Documentation:
+https://developer.themoviedb.org/docs/getting-started
 
 # React + Vite
 
