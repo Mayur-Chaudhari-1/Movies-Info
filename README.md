@@ -1,23 +1,39 @@
-#🎬 Movie Info Website
+# 🎬 Movie Info Website
 
-A responsive movie information website built using React and The Movie Database (TMDb) API.
-Users can search for movies, explore trending titles, posters, release dates, and save favorites.
+A responsive movie information website built using **React** and **The Movie Database (TMDb) API**.
 
-#🚀 Features
+Users can:
+- Search for movies
+- Explore trending titles
+- View posters and release dates
+- Save favorite movies
+
+---
+
+# 🚀 Features
+
 - 🔍 Search movies instantly
-- 🎥 View movie posters, and release dates
+- 🎥 View movie posters and release dates
 - ❤️ Add movies to favorites
 - 📱 Responsive design for mobile and desktop
 - ⚡ Fast and clean UI
 - 🌐 Real-time movie data using TMDb API
 
-#🛠️ Technologies Used
+---
+
+# 🛠️ Technologies Used
+
 - React.js
 - JavaScript
 - CSS
 - TMDb API
+- Vite
 
-#📂 Project Structure
+---
+
+# 📂 Project Structure
+
+```bash
 movie-info-website/
 │
 ├── public/
@@ -30,8 +46,8 @@ movie-info-website/
 │
 ├── package.json
 └── README.md
-
-#⚙️ Installation & Setup
+```
+# ⚙️ Installation & Setup
 1️⃣ Clone the repository
     git clone https://github.com/your-username/movie-info-website.git
 2️⃣ Open the project folder
